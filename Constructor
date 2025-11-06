@@ -1,0 +1,29 @@
+import java.lang.*; 
+class Method
+{
+int a,b,c,d;
+void add(int p,int q,int r)
+{
+a=p; b=q; c=r;
+}
+void add(int x,int y)
+{
+a=x; b=y;
+}
+void sum()
+{
+d=a+b;
+System.out.println("the addition is:" +d);
+}
+}
+class ConstructorOverloading
+{
+public static void main(String args[])
+{
+Method m=new Method(); 
+m.add(10,20,30);
+m.sum();
+m.add(20,500);
+m.sum();
+}        
+}
