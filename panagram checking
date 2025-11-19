@@ -1,0 +1,8 @@
+class solution:
+def ispanagram(self,s)
+#your code hereclass solution
+letter = set()
+        for i in s.lower():
+            if 'a'<= i <='z':
+                letter.add(i)
+        return len(letter)==26                                                                 
