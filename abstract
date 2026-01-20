@@ -1,0 +1,25 @@
+import java.lang.*; 
+abstract class Animal
+{
+abstract void display(); 
+void eat()
+{
+System.out.println("i can eat");
+}
+}
+class Dog extends Animal
+{
+void display()
+{
+System.out.println("i am a dog");
+}
+}
+class Abstract
+{
+public static void main(String args[])
+{
+Dog d1=new Dog(); 
+d1.display();
+d1.eat();
+}
+}
