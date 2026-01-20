@@ -1,0 +1,10 @@
+//Address
+class Address
+{
+ public static void main(String args[])
+{
+ System.out.println(" name = mahitha");
+ System.out.println("daughter of =  srinivas");
+ System.out.println("area = jaggampeta");
+}
+}
