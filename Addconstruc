@@ -1,0 +1,24 @@
+import java.lang.*;
+import java.util.*;
+class Addition
+{
+int a, b, c;
+void add (int a, int b)
+{
+a=b;
+b=a;
+c=a + b;
+System.out.println("Addition==",+c);
+}
+}
+class AddConstrc
+{
+public static void main(String args[])
+{
+Addition ob1=new addition();
+ob1.add(10,20)
+Addition ob2=new Addition();
+ob2.add(100,200);
+}
+}
+
