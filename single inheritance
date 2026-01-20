@@ -1,0 +1,31 @@
+import java.lang.*;
+import java.util.*;
+class Base
+{
+public void BaseObj();
+{
+system.out.println(String args[])
+class Derived extend base
+
+{
+class SingleInheritance
+public void object();
+{
+public static void main(String args[])
+{
+System.out.println("this is derived class");
+{
+public void single inheritance()
+{
+System.out.println("tthisbis single inheritance class"){
+{
+obj.new=base();
+obj.new = derived();
+{
+public void MultiLevelInheritance();
+System.out.println("this is multiLevelInheritance");
+{
+obj1.new = base();
+obj.new = derived();
+}
+}
