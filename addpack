@@ -1,0 +1,10 @@
+package mypack;
+public class Addpack
+{
+int a,b;
+public int sum(int q, int r)
+{
+a=q; b=r;
+return a+b;
+}
+}
