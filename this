@@ -1,0 +1,28 @@
+class ThisConstructor
+{
+String name;
+int age;
+Student()
+{
+    this("Aditya",0);
+}
+ Student(String n, int a)
+{
+  name = n;
+  age = a;
+}
+ void display()
+{
+  System.out.println("name:"+name+", age:"+age):
+  }
+}
+ public class This
+{
+ public static void main(String args[])
+{
+   student s1 = new student(); 
+   s1.display();
+   Student s2=new Student("Aditya",10);
+   s2.display();
+ }
+}
