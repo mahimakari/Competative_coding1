@@ -1,0 +1,12 @@
+//Addition of two numbers
+class Addition
+{
+ public static void main(String args[])
+{
+ int num1, num2, res;
+num1 =50;
+num2 =30;
+res =num1+num2;
+ System.out.println(res);
+}
+}
